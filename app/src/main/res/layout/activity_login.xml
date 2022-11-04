@@ -109,9 +109,6 @@
             android:clickable="true"
             android:gravity="right"
             android:visibility="gone"
-            app:tint="#F8F4F4"
-
-            />
+            app:tint="#F8F4F4" />
     </LinearLayout>
-
 </LinearLayout>
