@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:text="La app con más películas del mercado"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
@@ -90,8 +90,26 @@
                     android:inputType="textPassword" />
             </com.google.android.material.textfield.TextInputLayout>
 
+            <Button
+                android:id="@+id/Bt_inicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/atenea"
+                android:text="Iniciar Sesión"/>
+
+            <Button
+                android:id="@+id/Bt_registro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/atenea"
+                android:text="Registrarse"/>
 
         </LinearLayout>
+
     </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
